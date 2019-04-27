@@ -1,0 +1,87 @@
+body {
+	background-image:url(../images/background.jpg);
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.header {
+	padding: 5px;
+	margin-bottom: 10px;
+	display: grid;
+}
+
+.list {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 20px;
+	padding: 0px;
+}
+
+.list li{
+	padding: 10px;
+	border: 2px white solid;
+	color: black;
+	background: #D8896B;
+	text-align: center;
+	list-style: none;
+}
+
+.list li:hover {
+	background: black;
+	color: orange;
+}
+
+
+.facts {
+	text-align:center;
+  padding: 10px;
+  margin: 10px;
+  height: 10vh;
+  background: #ffdead;
+  line-height: 10px;
+}
+
+.artikulo {
+	border-radius: 15px;
+	border: 2px black solid;
+	text-align:center;
+	background-color: #BEB7A4;
+	color: yellow;
+	height: 40vh;
+	padding: 10px;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 5px; 
+} 
+
+.article-left {
+	
+	border: 2px black solid; 
+	text-align: center; 
+	height: 60vh;
+	color: black;
+	font-family: Verdana;
+	padding: 10px; 
+	background-color: #CEA177;
+}
+
+.article-right {
+	border: 2px black solid; 
+	text-align: center; 
+	height: 60vh;
+	color: yellow;
+	padding: 10px; 
+	background-image: url(../images/10.jpg);
+	background-position: left;
+}
+
+.aboutus {
+	text-align:center;
+  padding: 10px;
+  margin: 10px;
+  height: 10vh;
+  background-image: url(../images/9.jpg);
+}

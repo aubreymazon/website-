@@ -1,0 +1,130 @@
+body {
+	background-image: url(../images/background.jpg);
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.mylogo {
+	border: 2px black solid;
+	border-radius: 50%; 
+	width: 15vh;	
+	height: 15vh; 
+}
+
+.header {
+	display: grid;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+.list {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-gap: 20px;
+		padding: 0px;
+}
+
+.list li:hover {
+	background: black;
+	color: orange;
+}
+
+.list li{
+	padding: 10px;
+	border: 2px white solid;
+	color: black;
+	background: #F2A65A;
+	text-align: center;
+	list-style: none;
+}
+
+.main-header {
+	height: 80vh;
+	border: 2px black solid;
+	background-image: url(../images/16.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 5px;
+}
+
+.article-left {
+	border-radius: 15px;
+	border: 2px black solid;
+	text-align:center;
+	background-color: #F2A65A;
+	color: yellow;
+	font-family: Verdana;
+	height: 40vh;
+	padding: 10px;
+}
+
+.article-right {
+	border-radius: 15px;
+	border: 2px black solid;
+	text-align:center;
+	height: 40vh;
+	background-color: #F2A65A;
+	color: yellow;
+	font-family: Verdana;
+	padding: 10px;
+}
+
+.history {
+  text-align:center;
+  padding: 10px;
+  margin: 10px;
+  height: 10vh;
+  background: #BEB7A4;
+  line-height: 10px;
+}
+
+.offers {
+	text-align:center;
+	padding: 10px;
+	margin: 10px;
+	height: 10vh;
+	background: #ffdead;
+	line-height: 10px;
+}
+
+.container2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 5px;
+}
+
+.kanan {
+	border-radius: 15px;
+	border: 2px black solid;
+	text-align:center;
+	background-color:#D8896B;
+	color: yellow;
+	font-family: Verdana;
+	font-size: 50;
+	height: 40vh;
+	padding: 10px;
+}
+
+.kaliwa {
+	border-radius: 15px;
+	border: 2px black solid;
+	text-align:center;
+	background-image: url(../images/2.jpg);
+	background-position: center;
+	color: yellow;
+	height: 40vh;
+	padding: 10px;
+}
+
+.footer {
+  border: 3px black solid;
+  margin-top: 10px;
+  text-align: center;
+  border-radius: 25px;
+}
+
